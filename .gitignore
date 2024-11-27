@@ -1,0 +1,16 @@
+# Exclude Python virtual environment
+.venv/
+
+# Exclude Python bytecode
+__pycache__/
+
+# Exclude IDE settings
+.idea/
+
+# Exclude unnecessary scripts
+web-crawler.py
+web-crawler 2.0.py
+web-crawler3.0.py
+
+# Exclude CSV data files
+*.csv
