@@ -135,7 +135,4 @@ To scrape a different product category or page:
 2. **Add delays between requests.** The script includes `time.sleep(2)` to avoid sending rapid consecutive requests.
 ---
 
-## License
-This project is licensed under the MIT License.
-Feel free to fork this repository and adapt the code for your needs.
 
