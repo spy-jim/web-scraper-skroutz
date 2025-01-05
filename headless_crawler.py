@@ -56,7 +56,7 @@ def get_store_data(html_content):
     """
     soup = BeautifulSoup(html_content, 'html.parser')
     # Find all store cards
-    stores = soup.find_all('li', class_=['card js-product-card'])
+    stores = soup.find_all('li', class_=['card js-product-card', 'card js-product-card has-pro-badge'])
     store_data = []
     
     for store in stores:
